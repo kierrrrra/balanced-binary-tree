@@ -1,0 +1,116 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #fafafa;
+    font-family: "Roboto";
+    font-weight: 100;
+    font-size: 16px;
+}
+svg {
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+}
+.control-panel {
+    padding: 10px;
+}
+.control-panel > div {
+    position: relative;
+    width: 400px;
+    height: 40px;
+    margin: auto;
+}
+.control-panel > div > label {
+    position: absolute;
+    width: 34%;
+    top: 0;
+    left: 0;
+    line-height: 30px;
+    text-align: right;
+    padding-right: 20px;
+}
+.control-panel > div > input {
+    position: absolute;
+    width: 66%;
+    top: 0;
+    right: 0;
+    height: 30px;
+    font-size: 20px;
+    color: #444444;
+    background: rgba(255,255,255,0.8);
+    padding: 5px;
+    border: none;
+    border-bottom: 1px dotted #CCC;
+}
+.control-panel > button {
+    width: 400px;
+    background: #ff4f56;
+    color: #FFF;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    margin: auto;
+    display: block;
+}
+.node {
+    stroke: #444;
+    fill: #fafafa;
+    stroke-width: 2px;
+}
+.node-text {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
