@@ -57,8 +57,8 @@ function renderBST (bst) {
 
         svgWidth = Math.pow(2, Math.ceil(Math.log(bst.nodeCount)/Math.log(2))) * radius * 1.5;
 
-    svg.attr("width", svgWidth)
-        .attr("height", Math.ceil(Math.log(bst.nodeCount)/Math.log(2)) * spacing);
+    svg.attr("width", svgWidth + spacing)
+        .attr("height", Math.ceil(Math.log(bst.nodeCount)/Math.log(2)) * spacing + spacing);
 
     /**
      * Getting x-axis position of a node based on it's index
