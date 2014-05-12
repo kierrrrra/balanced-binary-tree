@@ -114,3 +114,8 @@ svg {
     line-height: 40px;
     text-align: center;
 }
+#status {
+    text-align: center;
+    padding: 5px 0;
+    color: #444;
+}

@@ -20,6 +20,8 @@ window.onload = function () {
 
         sortedArray = mergesort(arr);
 
+        document.getElementById('status').innerHTML = "Balanced Binary Search tree for an array <br/> of " + sortedArray.length + " random integers in [0-100]:";
+
         bst.createFromArray(sortedArray);
 
         try {
